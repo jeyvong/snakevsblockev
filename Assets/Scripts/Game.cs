@@ -103,6 +103,7 @@ public class Game : MonoBehaviour
                     CanvasNextLevel.SetActive(true);
                     isPause = true;
                     ButtonNextLevel.SetActive(true);
+                    audioOnGame.Stop();
                 }
                 else
                 {
